@@ -1,0 +1,24 @@
+2018-07-17 17:21:52 ============== Largest feature values ==============
+2018-07-17 17:21:52 salary                   : SKILLING JEFFREY K       =	1,111,258
+2018-07-17 17:21:52 to_messages              : SHAPIRO RICHARD S        =	15,149
+2018-07-17 17:21:52 deferral_payments        : FREVERT MARK A           =	6,426,990
+2018-07-17 17:21:52 total_payments           : LAY KENNETH L            =	103,559,793
+2018-07-17 17:21:52 long_term_incentive      : MARTIN AMANDA K          =	5,145,434
+2018-07-17 17:21:52 loan_advances            : LAY KENNETH L            =	81,525,000
+2018-07-17 17:21:52 bonus                    : LAVORATO JOHN J          =	8,000,000
+2018-07-17 17:21:52 restricted_stock         : LAY KENNETH L            =	14,761,694
+2018-07-17 17:21:52 restricted_stock_deferred: BHATNAGAR SANJAY         =	15,456,290
+2018-07-17 17:21:52 total_stock_value        : LAY KENNETH L            =	49,110,078
+2018-07-17 17:21:52 expenses                 : MCCLELLAN GEORGE         =	228,763
+2018-07-17 17:21:52 from_poi_to_this_person  : LAVORATO JOHN J          =	528
+2018-07-17 17:21:52 exercised_stock_options  : LAY KENNETH L            =	34,348,384
+2018-07-17 17:21:52 from_messages            : KAMINSKI WINCENTY J      =	14,368
+2018-07-17 17:21:52 other                    : LAY KENNETH L            =	10,359,729
+2018-07-17 17:21:52 from_this_person_to_poi  : DELAINEY DAVID W         =	609
+2018-07-17 17:21:52 deferred_income          : BADUM JAMES P            =	0
+2018-07-17 17:21:52 shared_receipt_with_poi  : BELDEN TIMOTHY N         =	5,521
+2018-07-17 17:21:52 director_fees            : BHATNAGAR SANJAY         =	137,864
+2018-07-17 17:21:52 ============== Searching for best hyperparameter ==============
+2018-07-17 17:21:52 Grid search for... Naive Bayes
+2018-07-17 17:22:18 Best hyperparameters: {'feature_selection__k': 4}
+2018-07-17 17:22:18 Grid search for... Decision Tree
