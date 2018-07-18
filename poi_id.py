@@ -116,8 +116,8 @@ def best_config(name, model, parameters, features_train, labels_train):
     pipeline = sklearn.pipeline.Pipeline(steps)
 
     scoring = ['accuracy', 'recall', 'precision', 'f1']
-    sss = StratifiedShuffleSplit(n_splits=1000, test_size=0.1, random_state=42)
-    cv = GridSearchCV(pipeline, param_grid=parameters, scoring=scoring, refit='recall',
+    sss = StratifiedShuffleSplit(n_splits=100, test_size=0.1, random_state=42)
+    cv = GridSearchCV(pipeline, param_grid=parameters, scoring=scoring, refit='f1',
                       cv=sss, return_train_score=True)
     cv.fit(features_train, labels_train)
     results = cv.cv_results_
